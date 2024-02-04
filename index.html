@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PL Game Tickers</title>
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <svg version="1.1" id="ARTWORK" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 1920 669.25" xml:space="preserve" class="pattern">
+            <style type="text/css">
+                .st0{fill:url(#SVGID_1_);}
+            </style>
+            <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="960" y1="-9.094947e-13" x2="960" y2="669.2451">
+                <stop  offset="0" style="stop-color:#37003C"/>
+                <stop  offset="0.2586" style="stop-color:#38013E"/>
+                <stop  offset="0.4072" style="stop-color:#3C0347"/>
+                <stop  offset="0.5279" style="stop-color:#430855"/>
+                <stop  offset="0.6336" style="stop-color:#4D0E69"/>
+                <stop  offset="0.7296" style="stop-color:#5A1682"/>
+                <stop  offset="0.8185" style="stop-color:#691FA2"/>
+                <stop  offset="0.902" style="stop-color:#7C2BC8"/>
+                <stop  offset="0.9792" style="stop-color:#9138F2"/>
+                <stop  offset="1" style="stop-color:#973CFF"/>
+            </linearGradient>
+            <path class="st0" d="M1135.55,396.48l157-157c-119.88,22.23-205.75,26.17-332.06,26.17c-145.92,0-278.17-14.8-415.29-44.26
+                l97.9-97.9C422.81,115.89,194.74,77.04,0,0v174.05c133.79,66.92,282.1,124.53,429.99,162.56l-93.51,93.49
+                c219.94,70.47,481.85,104.04,725.19,104.04L928.04,667.77c43.25,2.44,52.28,1.12,96.14,1.12c316.62,0,621.68-64.54,895.82-180.98
+                V157.41C1693.69,280.14,1403.65,368.36,1135.55,396.48z"/>
+        </svg>
+
+        <div class="header">
+            <img src="./images/pl_logo.png" alt="Premier League Logo" title="Premier League" class="logo">
+            <h1 class="season">2022 - 2023</h1>    
+        </div>
+
+
+        <div id="gameTicker" class="gameTicker">
+            <div class="nav nav--prev"> &lt; </div>
+            <div id="fixtures" class="fixtures"></div>
+            <div class="nav nav--next"> &gt; </div>
+        </div>
+
+        <!-- JS -->
+        <script type="module" src="js/app.js"></script> 
+    </body>
+</html>
