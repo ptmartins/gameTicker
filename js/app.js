@@ -55,6 +55,8 @@ import data from '../data/pl.json' assert {type: 'json'}
             badge.className = 'panel__badge';
             score.className = 'panel__score';
 
+            badge.setAttribute('title', team);
+
             teamName.textContent = team;
             view.badge(team, badge);
             score.textContent = teamScore; 
@@ -70,56 +72,79 @@ import data from '../data/pl.json' assert {type: 'json'}
                     el.classList.add('badge--arsenal'); 
                     break;
                 case 'Aston Villa':
+                    el.classList.add('badge--astonVilla'); 
                     break;
                 case 'Barnsley':
+                    el.classList.add('badge--barnsley'); 
                     break;
                 case 'Bournemouth':
+                    el.classList.add('badge--bournemouth'); 
                     break;
                 case 'Brentford':
+                    el.classList.add('badge--brentford'); 
                     break;
-                case 'Brighton & Hove Albion':
+                case 'Brighton':
+                    el.classList.add('badge--brighton'); 
                     break;
                 case 'Burnley':
+                    el.classList.add('badge--burnley'); 
                     break;
                 case 'Chelsea':
+                    el.classList.add('badge--chelsea'); 
                     break;
                 case 'Crystal Palace':
+                    el.classList.add('badge--crystalPalace'); 
                     break;
                 case 'Everton':
+                    el.classList.add('badge--everton'); 
                     break;
                 case 'Fulham':
+                    el.classList.add('badge--fulham'); 
                     break;
-                case 'Leeds United':
+                case 'Leeds':
+                    el.classList.add('badge--leeds'); 
                     break;
-                case 'Leicester City':
+                case 'Leicester':
+                    el.classList.add('badge--leicester'); 
                     break;
                 case 'Liverpool':
+                    el.classList.add('badge--liverpool'); 
                     break;
                 case 'Luton Town':
+                    el.classList.add('badge--luton'); 
                     break;
-                case 'Manchester City':
+                case 'Man City':
+                    el.classList.add('badge--manchesterCity'); 
                     break;
-                case 'Manchester United':
+                case 'Man Utd':
+                    el.classList.add('badge--manchesterUnited'); 
                     break;
-                case 'Newcastle United':
+                case 'Newcastle':
+                    el.classList.add('badge--newcastle'); 
                     break;                
                 case 'Nottingham Forest':
+                    el.classList.add('badge--nottinghamForest'); 
                     break;                
                 case 'Sheffield United':
+                    el.classList.add('badge--sheffieldUnited'); 
                     break;  
                 case 'Southampton':
+                    el.classList.add('badge--southampton'); 
                     break;  
-                case 'Tottenham Hotspur':
+                case 'Spurs':
+                    el.classList.add('badge--spurs'); 
                     break;  
-                case 'West Ham United':
+                case 'West Ham':
+                    el.classList.add('badge--westHam'); 
                     break;  
-                case 'Wolverhampton Wanderers':
+                case 'Wolves':
+                    el.classList.add('badge--wolves'); 
                     break;  
                 default: 
                     break;
             }
         }
-    }
+    };
 
     /**
      * Cache necessary DOM elements
@@ -159,7 +184,7 @@ import data from '../data/pl.json' assert {type: 'json'}
                 DOM.navPrev.classList.remove('nav--active');
             }
         }
-    }
+    };
 
     /**
      * Render results
@@ -246,7 +271,7 @@ import data from '../data/pl.json' assert {type: 'json'}
         }
 
         handleNav();
-    }
+    };
 
     /**
      * Setup Events
@@ -254,7 +279,16 @@ import data from '../data/pl.json' assert {type: 'json'}
     const setupEvents = () => {
         DOM.navPrev.addEventListener('click', goToPrev);
         DOM.navNext.addEventListener('click', goToNext);
-    }
+    };
+
+    /**
+     * Re-init logic
+     */
+    const reInit = () => {
+        currentPage = 0;
+        scrollDist = 0
+        init();
+    };
 
     /**
      * Kick-off logic
@@ -268,5 +302,5 @@ import data from '../data/pl.json' assert {type: 'json'}
     };
 
     window.addEventListener('DOMContentLoaded', init);
-    window.addEventListener('resize', init);
+    window.addEventListener('resize', reInit);
 })();

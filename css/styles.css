@@ -24,14 +24,15 @@ body {
 }
 
 .header {
-    align-items: flex-end;
+    align-items: center;
     color: #fff;
     display: flex;
     flex-direction: column;
+    user-select: none;
 }
 
 .gameTicker {
-    inset-block-start: 50%;
+    inset-block-start: 60%;
     inset-inline: 50%;
     margin-inline-end: 3rem;
     position: absolute;
@@ -100,6 +101,7 @@ body {
     overflow: hidden;
     padding: .75rem;
     text-align: center;
+    user-select: none;
     white-space: nowrap;
     width: calc((100% / var(--visible-panels)) - 10px);
 }
@@ -115,6 +117,104 @@ body {
 .badge--arsenal {
     background-position: -25px 0;
 }
+
+.badge--astonVilla {
+    background-position: -50px 0;
+}
+
+.badge--barnsley {
+    background-position: -75px 0;
+}
+
+.badge--bournemouth {
+    background-position: -50px -25px;
+}
+
+.badge--brentford {
+    background-position: 0 -175px;
+}
+
+.badge--brighton {
+    background-position: -125px -150px; 
+} 
+
+.badge--burnley {
+    background-position: -100px -25px; 
+}
+
+.badge--chelsea {
+    background-position: -25px -50px; 
+}
+
+.badge--crystalPalace {
+    background-position: -75px -50px; 
+}
+
+.badge--everton {
+    background-position: -125px -50px; 
+}
+
+.badge--fulham {
+    background-position: 0 -75px; 
+}
+
+.badge--leeds {
+    background-position: -75px -75px; 
+}
+
+
+.badge--leicester {
+    background-position: -100px -75px; 
+}
+
+.badge--liverpool {
+    background-position: -125px -75px; 
+}
+
+.badge--luton {
+    background-position: -25px -175px; 
+}
+
+.badge--manchesterCity {
+    background-position: 0 -100px; 
+}
+
+.badge--manchesterUnited {
+    background-position: -25px -100px;
+}
+
+.badge--newcastle {
+    background-position: -75px -100px;
+}
+
+.badge--nottinghamForest {
+    background-position: -125px -100px;
+}
+
+.badge--sheffieldUnited {
+    background-position: -100px -125px;
+}
+
+.badge--southampton {
+    background-position: -150px 0;
+}
+
+.badge--spurs {
+    background-position: -150px -100px;
+}  
+
+.badge--westHam {
+    background-position: -25px -150px;
+}
+
+.badge--wolves {
+    background-position: -100px -150px;
+}
+
+
+
+
+
 
 .panel__venue {
     font-size: 14px;
@@ -144,9 +244,10 @@ body {
 }
 
 .panel__team {
+    display: none;
     flex-grow: 1;
-    overflow: hidden;
     min-width: 0;
+    overflow: hidden;
     text-align: start;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -162,13 +263,20 @@ body {
     width: 32px;
 }
 
-@container panel (min-width:) {
-
+@container panel (min-width: 140px) {
+    .panel__team {
+        display: block;
+    }
 }
 
 
 @media all and (min-width: 768px) {
     .header {
+        align-items: flex-end;
         flex-direction: row;
+    }
+
+    .gameTicker {
+        inset-block-start: 50%;
     }
 }
