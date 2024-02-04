@@ -1,0 +1,156 @@
+[
+    {
+        "MatchNumber": 1,
+        "RoundNumber": 1,
+        "DateUtc": "2022-08-05 19:00:00Z",
+        "Location": "Selhurst Park",
+        "HomeTeam": "Crystal Palace",
+        "AwayTeam": "Arsenal",
+        "Group": null,
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
+    },
+    {
+        "MatchNumber": 2,
+        "RoundNumber": 1,
+        "DateUtc": "2022-08-06 11:30:00Z",
+        "Location": "Craven Cottage",
+        "HomeTeam": "Fulham",
+        "AwayTeam": "Liverpool",
+        "Group": null,
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 2
+    },
+    {
+        "MatchNumber": 3,
+        "RoundNumber": 1,
+        "DateUtc": "2022-08-06 14:00:00Z",
+        "Location": "Vitality Stadium",
+        "HomeTeam": "Bournemouth",
+        "AwayTeam": "Aston Villa",
+        "Group": null,
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 0
+    },
+    {
+        "MatchNumber": 4,
+        "RoundNumber": 1,
+        "DateUtc": "2022-08-06 14:00:00Z",
+        "Location": "Elland Road",
+        "HomeTeam": "Leeds",
+        "AwayTeam": "Wolves",
+        "Group": null,
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 1
+    },
+    {
+        "MatchNumber": 6,
+        "RoundNumber": 1,
+        "DateUtc": "2022-08-06 14:00:00Z",
+        "Location": "St. James' Park",
+        "HomeTeam": "Newcastle",
+        "AwayTeam": "Nottingham Forest",
+        "Group": null,
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 0
+    },
+    {
+        "MatchNumber": 7,
+        "RoundNumber": 1,
+        "DateUtc": "2022-08-06 14:00:00Z",
+        "Location": "Tottenham Hotspur Stadium",
+        "HomeTeam": "Spurs",
+        "AwayTeam": "Southampton",
+        "Group": null,
+        "HomeTeamScore": 4,
+        "AwayTeamScore": 1
+    },
+    {
+        "MatchNumber": 8,
+        "RoundNumber": 1,
+        "DateUtc": "2022-08-06 16:30:00Z",
+        "Location": "Goodison Park",
+        "HomeTeam": "Everton",
+        "AwayTeam": "Chelsea",
+        "Group": null,
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 1
+    },
+    {
+        "MatchNumber": 5,
+        "RoundNumber": 1,
+        "DateUtc": "2022-08-07 13:00:00Z",
+        "Location": "King Power Stadium",
+        "HomeTeam": "Leicester",
+        "AwayTeam": "Brentford",
+        "Group": null,
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 2
+    },
+    {
+        "MatchNumber": 9,
+        "RoundNumber": 1,
+        "DateUtc": "2022-08-07 13:00:00Z",
+        "Location": "Old Trafford",
+        "HomeTeam": "Man Utd",
+        "AwayTeam": "Brighton",
+        "Group": null,
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 2
+    },
+    {
+        "MatchNumber": 10,
+        "RoundNumber": 1,
+        "DateUtc": "2022-08-07 15:30:00Z",
+        "Location": "London Stadium",
+        "HomeTeam": "West Ham",
+        "AwayTeam": "Man City",
+        "Group": null,
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
+    },
+    {
+        "MatchNumber": 12,
+        "RoundNumber": 2,
+        "DateUtc": "2022-08-13 11:30:00Z",
+        "Location": "Villa Park",
+        "HomeTeam": "Aston Villa",
+        "AwayTeam": "Everton",
+        "Group": null,
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 1
+    },
+    {
+        "MatchNumber": 11,
+        "RoundNumber": 2,
+        "DateUtc": "2022-08-13 14:00:00Z",
+        "Location": "Emirates Stadium",
+        "HomeTeam": "Arsenal",
+        "AwayTeam": "Leicester",
+        "Group": null,
+        "HomeTeamScore": 4,
+        "AwayTeamScore": 2
+    },
+    {
+        "MatchNumber": 14,
+        "RoundNumber": 2,
+        "DateUtc": "2022-08-13 14:00:00Z",
+        "Location": "Amex Stadium",
+        "HomeTeam": "Brighton",
+        "AwayTeam": "Newcastle",
+        "Group": null,
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
+    },
+    {
+        "MatchNumber": 17,
+        "RoundNumber": 2,
+        "DateUtc": "2022-08-13 14:00:00Z",
+        "Location": "Etihad Stadium",
+        "HomeTeam": "Man City",
+        "AwayTeam": "Bournemouth",
+        "Group": null,
+        "HomeTeamScore": 4,
+        "AwayTeamScore": 0
+    }
+]
